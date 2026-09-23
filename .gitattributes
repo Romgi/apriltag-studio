@@ -10,4 +10,4 @@
 *.zip binary
 *.exe binary
 *.dll binary
-licenses/** -text
+licenses/** -text linguist-vendored
