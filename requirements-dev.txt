@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Test runner and Windows packaging tool used by CI.
+pytest==9.1.1
+pyinstaller==6.22.3

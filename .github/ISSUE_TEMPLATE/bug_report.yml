@@ -1,0 +1,35 @@
+name: Bug report
+description: Report a camera, detection, pose, or application problem.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the behavior, what you expected, and how to reproduce it.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App and Windows versions
+      placeholder: AprilTag Studio 0.1.0, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Camera and detector settings
+      description: Webcam model, requested and delivered mode/FPS, capture API, USB format, tag family, and relevant detector settings.
+  - type: dropdown
+    id: demo
+    attributes:
+      label: Does the camera-free detector demo work?
+      options:
+        - Not tested
+        - Yes
+        - No
+  - type: textarea
+    id: details
+    attributes:
+      label: Error text or supporting details
+      description: For pose issues, include calibration mode and measured tag size. Only upload images/files you intend to make public.

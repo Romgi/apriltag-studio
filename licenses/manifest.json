@@ -1,0 +1,653 @@
+[
+  {
+    "component": "pyapriltags",
+    "version": "3.4.3.1",
+    "source": "pyapriltags-3.4.3.1.dist-info/LICENSE.md",
+    "file": "pyapriltags-3.4.3.1/pyapriltags-3.4.3.1.dist-info/LICENSE.md",
+    "sha256": "6d465eb60d0a990f7dc9db87a50ec4328a0c46375f0dc6e29dc103e1a421dc88"
+  },
+  {
+    "component": "opencv-python-headless",
+    "version": "5.0.0.93",
+    "source": "cv2/LICENSE-3RD-PARTY.txt",
+    "file": "opencv-python-headless-5.0.0.93/cv2/LICENSE-3RD-PARTY.txt",
+    "sha256": "c1d60169b55cee56452b227c2fd2a7b9ddda3dd3741065f1c6201072be73fadb"
+  },
+  {
+    "component": "opencv-python-headless",
+    "version": "5.0.0.93",
+    "source": "cv2/LICENSE.txt",
+    "file": "opencv-python-headless-5.0.0.93/cv2/LICENSE.txt",
+    "sha256": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+  },
+  {
+    "component": "opencv-python-headless",
+    "version": "5.0.0.93",
+    "source": "opencv_python_headless-5.0.0.93.dist-info/LICENSE-3RD-PARTY.txt",
+    "file": "opencv-python-headless-5.0.0.93/opencv_python_headless-5.0.0.93.dist-info/LICENSE-3RD-PARTY.txt",
+    "sha256": "c1d60169b55cee56452b227c2fd2a7b9ddda3dd3741065f1c6201072be73fadb"
+  },
+  {
+    "component": "opencv-python-headless",
+    "version": "5.0.0.93",
+    "source": "opencv_python_headless-5.0.0.93.dist-info/LICENSE.txt",
+    "file": "opencv-python-headless-5.0.0.93/opencv_python_headless-5.0.0.93.dist-info/LICENSE.txt",
+    "sha256": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+  },
+  {
+    "component": "PySide6-Essentials",
+    "version": "6.11.2",
+    "source": "pyside6_essentials-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+    "file": "PySide6-Essentials-6.11.2/pyside6_essentials-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+    "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+  },
+  {
+    "component": "shiboken6",
+    "version": "6.11.2",
+    "source": "shiboken6-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+    "file": "shiboken6-6.11.2/shiboken6-6.11.2.dist-info/licenses/LicenseRef-Qt-Commercial.txt",
+    "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+  },
+  {
+    "component": "psutil",
+    "version": "7.2.2",
+    "source": "psutil-7.2.2.dist-info/LICENSE",
+    "file": "psutil-7.2.2/psutil-7.2.2.dist-info/LICENSE",
+    "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80"
+  },
+  {
+    "component": "pygrabber",
+    "version": "0.2",
+    "source": "pygrabber-0.2.dist-info/LICENSE",
+    "file": "pygrabber-0.2/pygrabber-0.2.dist-info/LICENSE",
+    "sha256": "07eaecb8881e4c51dc14e6719b48d2d33dadd657c35085f65b10fb549e4f19e4"
+  },
+  {
+    "component": "comtypes",
+    "version": "1.4.17",
+    "source": "comtypes-1.4.17.dist-info/licenses/LICENSE.txt",
+    "file": "comtypes-1.4.17/comtypes-1.4.17.dist-info/licenses/LICENSE.txt",
+    "sha256": "3b1767f010980b46926b23bf0afce5d72f3359ee5e2b27baca71b9b4209ab383"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/LICENSE.txt",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/LICENSE.txt",
+    "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+    "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+    "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+    "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+    "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+    "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+    "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+    "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+    "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+    "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+    "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+    "file": "numpy-2.5.3/numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+    "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy/_core/include/numpy/random/LICENSE.txt",
+    "file": "numpy-2.5.3/numpy/_core/include/numpy/random/LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy/ma/LICENSE",
+    "file": "numpy-2.5.3/numpy/ma/LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "component": "numpy",
+    "version": "2.5.3",
+    "source": "numpy/random/LICENSE.md",
+    "file": "numpy-2.5.3/numpy/random/LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "component": "CPython",
+    "version": "3.13.7",
+    "source": "CPython installation LICENSE.txt",
+    "file": "Python-3.13.7/LICENSE.txt",
+    "sha256": "62bec384df47b0328307db41455ff6ea2559e5546b394ac69148561b21703120"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/Apache-2.0.txt",
+    "file": "Qt-PySide-6.11.2-upstream/Apache-2.0.txt",
+    "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/BSD-3-Clause.txt",
+    "file": "Qt-PySide-6.11.2-upstream/BSD-3-Clause.txt",
+    "sha256": "62803a6fcceef9091a129d7293d2469ea332b35d30f5e1bc4c628a9f35f3d29c"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/GFDL-1.3-no-invariants-only.txt",
+    "file": "Qt-PySide-6.11.2-upstream/GFDL-1.3-no-invariants-only.txt",
+    "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/GPL-2.0-only.txt",
+    "file": "Qt-PySide-6.11.2-upstream/GPL-2.0-only.txt",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/GPL-3.0-only.txt",
+    "file": "Qt-PySide-6.11.2-upstream/GPL-3.0-only.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/LGPL-3.0-only.txt",
+    "file": "Qt-PySide-6.11.2-upstream/LGPL-3.0-only.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+  },
+  {
+    "component": "Qt/PySide upstream license references",
+    "version": "6.11.2",
+    "source": "https://raw.githubusercontent.com/pyside/pyside-setup/v6.11.2/LICENSES/Qt-GPL-exception-1.0.txt",
+    "file": "Qt-PySide-6.11.2-upstream/Qt-GPL-exception-1.0.txt",
+    "sha256": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/licenses-used-in-qt.html",
+    "file": "Qt-6.11.2-third-party/upstream-index.html",
+    "sha256": "22527567a5432951bc76438b77962ff90cd7bc09797dd8e0929fa70f2cb125cf"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qt-attribution-llvm.html",
+    "file": "Qt-6.11.2-third-party/qt-attribution-llvm.html",
+    "sha256": "0d18cf0ddec59639e8e611e62cf5c2490325a4ea48323f3feabae0a7eb606d30"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qt-attribution-llvmpipe.html",
+    "file": "Qt-6.11.2-third-party/qt-attribution-llvmpipe.html",
+    "sha256": "81e68c4a33a7ed651785015760b04689bfbe4d789fb217cd92fd765fdb07a517"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-blake2.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-blake2.html",
+    "sha256": "a24fbf5ee3eeb54c08025bcdda1d9aa19abe55eecbe94c271b1cdf2e8a3c95a0"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-doubleconversion.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-doubleconversion.html",
+    "sha256": "23c545168e779f704dd77cdb6b1bee0af00d3592a251c928b533c0472fc000a7"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-easing.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-easing.html",
+    "sha256": "c16c616d04513c889e505a5e38a6618b1dc7b12582b3c881dc754166135b664e"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-forkfd.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-forkfd.html",
+    "sha256": "70abb2ef2f7aa7f7b62742888a5761e09328d8e50e1987fdb023b0d678f75e18"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-md4.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-md4.html",
+    "sha256": "f564d268fcaa3c3423b3a97978fd354458d808121332b49b49362ba292282b70"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-md5.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-md5.html",
+    "sha256": "14da17da04d447ad429daa1ff2187003774301537742186eb10f833d10a05a62"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-pcre2-sljit.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-pcre2-sljit.html",
+    "sha256": "63f37926b0bb1be66803032c9632f06c272822afb50a8615b1f24557d640ce88"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-pcre2.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-pcre2.html",
+    "sha256": "4e9171ce48dc19f45653e40fd46f33eb25650d7ccafd57b0293546e59af98546"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-qeventdispatcher-cf.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-qeventdispatcher-cf.html",
+    "sha256": "2a71e33918531424d9403e7fc515f48230a15355230197c16ca50d0546948be4"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-rfc6234.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-rfc6234.html",
+    "sha256": "7a5bec8769c2c3b1c7084310b330c319c3eb4a85fe281a2e9c2b2e36547d39ad"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-sha1.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-sha1.html",
+    "sha256": "55247b30719a9532645108aa07c0055cfcef545ccc65d651c8084e14d260cacf"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-sha3-endian.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-sha3-endian.html",
+    "sha256": "d39dced83ff2b431465b85318ff4de95851297489b76ae5cbc66f3b064cb2378"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-sha3-keccak.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-sha3-keccak.html",
+    "sha256": "c39d36e7338d26c6e04beb0686724f8358ec357d37111b8cab378cdeb1cd3d8d"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-siphash.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-siphash.html",
+    "sha256": "7789420feb292ac0c6b2780dc9fc29bb473d6e88729a4314cc81aedd8b80306a"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-tika-mimetypes.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-tika-mimetypes.html",
+    "sha256": "2f0ab49adf7ef53c12ee2331ff44a9034bb7955b10d1d909d79928070a76db8b"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-tinycbor.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-tinycbor.html",
+    "sha256": "884f78234b699608d360e46f0a3057c7560a86e3e7adea1749660137a73330ed"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-tlexpected.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-tlexpected.html",
+    "sha256": "4f92bc26a0d0c1af6c19eadd200ad1819a374c3742167bac559c3334e3ec53e2"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-unicode-character-database.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-unicode-character-database.html",
+    "sha256": "75101cd8625601ad712b818d8be2728bceb962b98301d8d60e75b8d8dc598119"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-unicode-cldr.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-unicode-cldr.html",
+    "sha256": "03e65411b485f2fa1682d51e12ae61ca88246569561a00e0c1517f1f861dd3f0"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtcore-attribution-zlib.html",
+    "file": "Qt-6.11.2-third-party/qtcore-attribution-zlib.html",
+    "sha256": "49d610fd3e1397936d024de0499a2b8618685ce972185e84d7eb7438f594990c"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-aglfn.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-aglfn.html",
+    "sha256": "9a1452b799da27dc41104493db76d421e733bc360429c8a90441afef7fcea743"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-android-native-style.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-android-native-style.html",
+    "sha256": "9b4e3e3c67d5b1de84c7fcac27fd009cd795cfd7159e865c2012a7100f82308f"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-cocoa-platform-plugin.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-cocoa-platform-plugin.html",
+    "sha256": "8e4e4ff9c55d14f10561cc3fe34dab9c9e16f5642e487e6b27b971e95425b987"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-d3d12memoryallocator.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-d3d12memoryallocator.html",
+    "sha256": "0f19e8c8bedf5872eae06e556cf99bacb3f02aa2ea5cb17722fd535fe3310b7c"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-dejayvu.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-dejayvu.html",
+    "sha256": "7d4c078229b9117f3e8c9c44de2d12a8ccf47f566d6964e57b6144abd651dd36"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-emoji-segmenter.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-emoji-segmenter.html",
+    "sha256": "719effac5c419ce29dea8d31d7d55b9275be98a628cd68ace2d1e5cf51a75134"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-freetype-bdf.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-freetype-bdf.html",
+    "sha256": "b1172eebbea7d021dc110aa6625ff20f3f4179ba60abe93553e452175c783a56"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-freetype-pcf.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-freetype-pcf.html",
+    "sha256": "44424d3c7de60aafbd0331bba0fcbb5a295afdcc1f92e7106a9bee7d983ee482"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-freetype-zlib.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-freetype-zlib.html",
+    "sha256": "a361e3ed513c4a8e9676c316cfff3bc3fd90f743a5ee6f44731f13942feeb133"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-freetype.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-freetype.html",
+    "sha256": "e086da10883f00c768453f9af7d934b4665b56b45f270039867816ac9cba2894"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-grayraster.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-grayraster.html",
+    "sha256": "79e8bb53806e8778cdff9a589b0e3a50eb18b9df052e98a8975e036844b528fe"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-harfbuzz-ng.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-harfbuzz-ng.html",
+    "sha256": "b72ed7a114006b6b355bffbd3e4cf7aefb938b697bc2698ee32fa0bc39933b43"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-icc-srgb-color-profile.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-icc-srgb-color-profile.html",
+    "sha256": "59d72821fd583b7e593935dc04ca6764022e56f2e9bec47376a28f28369a09ba"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-libjpeg.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-libjpeg.html",
+    "sha256": "22f255606d4352485968e4b7e347dea46b23b52ab0bcdea296f24a6d0bc6fb85"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-libpng.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-libpng.html",
+    "sha256": "99ecc6605b320bb8f49b32b1906a3548f006399db7215635243a2034f5eecdd6"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-md4c.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-md4c.html",
+    "sha256": "f059ffad4b606fcbdc8642ab79df5f35630f2a749d44a445303bfc5436330d60"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-opengl-es2-headers.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-opengl-es2-headers.html",
+    "sha256": "5aed663c872f72c5c910700fc36276a75f6475a25da1fb49c493f391484c5b3b"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-opengl-headers.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-opengl-headers.html",
+    "sha256": "aae16a41b0f8b759ca59c9c82f2be6efd11fb12ce6091448b6f65af9a8c4b160"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-pixman.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-pixman.html",
+    "sha256": "717a62976162e7246cae9ba3f0446c39a64c21668a70e9bb7f4d466d26b0fe3b"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-rhi-miniengine-d3d12-mipmap.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-rhi-miniengine-d3d12-mipmap.html",
+    "sha256": "c1ea8498d5da80fa586902381b2223f458b71381bdf8b011498eaff6b864a96a"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-smooth-scaling-algorithm.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-smooth-scaling-algorithm.html",
+    "sha256": "560c96917ef0581be92860c12196c7a292ca5f2bcdb447ab30f82309a27fdf28"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-vulkan-xml-spec.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-vulkan-xml-spec.html",
+    "sha256": "84dfd8b73949fac0d9ce42a8c309c2f5464c372fd48ee3f01223ddd0d6d3bd27"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-vulkanmemoryallocator.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-vulkanmemoryallocator.html",
+    "sha256": "71cbbfe511fba1fbaa215af6ace32500be83f79a0132d20dd47857db12c264aa"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-webgradients.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-webgradients.html",
+    "sha256": "2baf0bb406728a55e8d95724ed29cc00f939e2084d8b5ccfeb449906b32d16f9"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-wintab.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-wintab.html",
+    "sha256": "624dea0dd7f0c11033852bab829c65a02ed7c78abcad814d122e341a47a640b1"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-xcb-xinput.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-xcb-xinput.html",
+    "sha256": "18a951cc57978deda9cb7b43452df7fc3621636289df6f635729b1ed40a8bf97"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtgui-attribution-xserverhelper.html",
+    "file": "Qt-6.11.2-third-party/qtgui-attribution-xserverhelper.html",
+    "sha256": "16eb2317afb9e22b0715a36e0e509b97bd1be3585d3a45637ddd3435a5298cf9"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtimageformats-attribution-libtiff.html",
+    "file": "Qt-6.11.2-third-party/qtimageformats-attribution-libtiff.html",
+    "sha256": "6ec58dee5979a654a4cebec3e472bf1e863323d07e7fded1c542588a7e21c9e6"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtimageformats-attribution-libwebp.html",
+    "file": "Qt-6.11.2-third-party/qtimageformats-attribution-libwebp.html",
+    "sha256": "fcfa1257fd5144b0b9a73594d50940361c6639268cc00ab7df09f59353c76b46"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtnetwork-attribution-libpsl.html",
+    "file": "Qt-6.11.2-third-party/qtnetwork-attribution-libpsl.html",
+    "sha256": "53e14c6ef25677c438f1675db83e4881638626865355f920f095ea5b77e2bcd7"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtnetwork-attribution-psl-data.html",
+    "file": "Qt-6.11.2-third-party/qtnetwork-attribution-psl-data.html",
+    "sha256": "cf9e2b2938bfcd81466836ec9c6e2aace95207744f3f854871960f153ae0f911"
+  },
+  {
+    "component": "Qt third-party attribution notices",
+    "version": "6.11.2",
+    "source": "https://doc.qt.io/qt-6/qtsvg-attribution-xsvg.html",
+    "file": "Qt-6.11.2-third-party/qtsvg-attribution-xsvg.html",
+    "sha256": "237388ef1841f4b164ab9dbdf454f4b5ae65662071913bf4418afdb44710ea14"
+  }
+]

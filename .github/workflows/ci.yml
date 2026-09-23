@@ -1,0 +1,100 @@
+name: Windows tests and portable build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows:
+    name: Python 3.13 / Windows x64
+    runs-on: windows-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      QT_QPA_PLATFORM: offscreen
+      PYTHONNOUSERSITE: '1'
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+          architecture: x64
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements-dev.txt
+
+      - name: Run tests without a camera
+        run: python -m pytest tests -q
+
+      - name: Build portable application
+        run: ./Build.ps1 -PythonExecutable (Get-Command python).Source -SkipInstall
+
+      - name: Smoke test packaged application
+        timeout-minutes: 2
+        run: |
+          $ErrorActionPreference = 'Stop'
+          New-Item -ItemType Directory -Force -Path smoke-reports | Out-Null
+          $applicationPath = (Resolve-Path -LiteralPath 'portable/AprilTagStudio.exe').Path
+          function Invoke-PackagedSmoke {
+            param([string[]] $SmokeArguments)
+            $smokeProcess = Start-Process -FilePath $applicationPath -ArgumentList $SmokeArguments -WindowStyle Hidden -PassThru
+            if (-not $smokeProcess.WaitForExit(30000)) {
+              Stop-Process -Id $smokeProcess.Id -Force
+              throw 'Packaged application did not close within 30 seconds.'
+            }
+            $smokeProcess.Refresh()
+            if ($smokeProcess.ExitCode -ne 0) {
+              throw "Packaged application exited with code $($smokeProcess.ExitCode)."
+            }
+          }
+
+          Invoke-PackagedSmoke -SmokeArguments @('--pose-example', '--quit-after', '3', '--report', 'smoke-reports/pose-example.json')
+          $example = Get-Content -LiteralPath 'smoke-reports/pose-example.json' -Raw | ConvertFrom-Json
+          if ($example.error -or $example.has_result -or -not $example.pose_scene.demo -or -not $example.pose_scene.available -or @($example.pose_scene.tags).Count -ne 3) {
+            throw 'Illustrative pose smoke test did not produce its expected three-tag scene.'
+          }
+
+          Invoke-PackagedSmoke -SmokeArguments @('--demo', '--view', 'split', '--quit-after', '5', '--report', 'smoke-reports/detector-demo.json')
+          $demo = Get-Content -LiteralPath 'smoke-reports/detector-demo.json' -Raw | ConvertFrom-Json
+          if ($demo.error -or -not $demo.has_result -or $demo.sequence -le 0 -or $demo.width -le 0 -or $demo.height -le 0 -or @($demo.detections).Count -lt 1) {
+            throw 'Detector demo smoke test did not produce valid frames and detections.'
+          }
+          if ($demo.pose_scene.available -or @($demo.pose_scene.tags).Count -ne 0) {
+            throw 'The uncalibrated detector demo must not claim measured 3D poses.'
+          }
+
+      - name: Package portable release
+        run: python scripts/package_release.py --output-directory dist
+
+      - name: Upload portable build and smoke reports
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: AprilTagStudio-windows-x64-${{ github.sha }}
+          path: |
+            dist/*.zip
+            dist/*.zip.sha256
+            smoke-reports/*.json
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

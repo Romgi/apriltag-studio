@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AprilTag Studio · printable sample tags</title>
+  <style>
+    :root { color-scheme: light; font-family: "Segoe UI", Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #171717; background: #eceeea; }
+    .instructions { max-width: 780px; margin: 28px auto; padding: 24px; background: white; }
+    h1 { font-size: 28px; margin: 0 0 12px; }
+    p { line-height: 1.5; }
+    button { padding: 12px 22px; background: #15543b; color: white; border: 0; border-radius: 4px; font: inherit; cursor: pointer; }
+    .sheet { width: 180mm; margin: 24px auto; padding: 15mm; background: white; break-after: page; }
+    .sheet:last-child { break-after: auto; }
+    .eyebrow { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; }
+    h2 { margin: 6px 0 10px; font-size: 26px; }
+    .marker { display: block; width: 150mm; height: 150mm; image-rendering: pixelated; }
+    .note { font-size: 12px; margin: 14px 0 0; }
+    .ruler { width: 100mm; margin-top: 22px; border-top: 1px solid black; position: relative; }
+    .ruler::before, .ruler::after { content: ""; position: absolute; top: -4px; height: 7px; border-left: 1px solid black; }
+    .ruler::before { left: 0; } .ruler::after { right: 0; }
+    .ruler p { margin: 5px 0; text-align: center; font-size: 10px; }
+    @page { size: A4; margin: 15mm; }
+    @media print {
+      body { background: white; }
+      .instructions { display: none; }
+      .sheet { margin: 0; padding: 0; width: 180mm; }
+    }
+  </style>
+</head>
+<body>
+  <div class="instructions">
+    <h1>Print a tag. Point your camera.</h1>
+    <p>These AprilTag <strong>tag36h11</strong> samples use IDs <strong>0</strong> and <strong>1</strong>. Select that family in AprilTag Studio. You can also open either PNG on another screen to try detection.</p>
+    <p>Print on plain white paper at <strong>100% / actual size</strong>, with browser headers and footers turned off. Each black outer square should measure <strong>120 mm</strong>. Check with a ruler; for pose estimation, set the tag size to <strong>0.120 m</strong> or your measured size. Do not include the white margin in the tag size.</p>
+    <p>Keep the white border visible and the paper flat. Accurate distance and orientation also require calibration for your webcam and selected resolution.</p>
+    <button type="button" onclick="window.print()">Print two pages</button>
+  </div>
+  <section class="sheet" aria-label="AprilTag sample ID 0">
+    <div class="eyebrow">AprilTag Studio / Camera target</div>
+    <h2>tag36h11 · ID 0</h2>
+    <img class="marker" src="tag36h11-ID0.png" width="800" height="800" alt="AprilTag family tag36h11, ID 0, with a white quiet zone">
+    <p class="note"><strong>Tag size: 120 mm / 0.120 m.</strong> Measure the black outer square; exclude the white margin. Print at 100% / actual size.</p>
+    <div class="ruler"><p>100 mm verification line</p></div>
+  </section>
+  <section class="sheet" aria-label="AprilTag sample ID 1">
+    <div class="eyebrow">AprilTag Studio / Camera target</div>
+    <h2>tag36h11 · ID 1</h2>
+    <img class="marker" src="tag36h11-ID1.png" width="800" height="800" alt="AprilTag family tag36h11, ID 1, with a white quiet zone">
+    <p class="note"><strong>Tag size: 120 mm / 0.120 m.</strong> Measure the black outer square; exclude the white margin. Print at 100% / actual size.</p>
+    <div class="ruler"><p>100 mm verification line</p></div>
+  </section>
+</body>
+</html>

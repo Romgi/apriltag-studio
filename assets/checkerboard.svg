@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+  <title>Camera calibration checkerboard: 9 by 6 inner corners; 20 mm squares</title>
+  <desc>A4 landscape. Print at 100 percent or actual size. Do not fit to page. Measure the printed square width before calibrating.</desc>
+  <rect width="297" height="210" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="black">
+    <text x="148.5" y="14" text-anchor="middle" font-size="4.5">APRILTAG STUDIO · CAMERA CALIBRATION</text>
+    <text x="148.5" y="22" text-anchor="middle" font-size="3.5">9 × 6 inner corners · 20 mm squares · A4 landscape · print 100% / actual size</text>
+  </g>
+  <defs>
+    <pattern id="checker" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="white"/>
+      <rect x="0" y="0" width="20" height="20" fill="black"/>
+      <rect x="20" y="20" width="20" height="20" fill="black"/>
+    </pattern>
+  </defs>
+  <svg x="48.5" y="34" width="200" height="140" viewBox="0 0 200 140">
+    <rect width="200" height="140" fill="url(#checker)"/>
+  </svg>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle" font-size="3.5">
+    <text x="148.5" y="188">Do not fit to page. Measure one printed square and enter its actual width.</text>
+    <text x="148.5" y="195">Mount flat. Capture sharp views at varied positions, distances, and tilts.</text>
+  </g>
+</svg>
